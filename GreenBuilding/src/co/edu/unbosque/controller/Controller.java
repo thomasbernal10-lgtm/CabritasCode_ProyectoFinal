@@ -106,6 +106,10 @@ public class Controller implements ActionListener {
 		view = new ViewFacade();
 		asignarOyentesBienvenida();
 	}
+	
+	public void nuevoMetodo() {
+		
+	}
 
 	/**
 	 * Hace visible la ventana de bienvenida para iniciar la interaccion con el
