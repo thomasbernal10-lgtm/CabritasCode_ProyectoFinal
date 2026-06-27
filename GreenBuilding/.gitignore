@@ -1,0 +1,14 @@
+# Ignorar todas las clases compiladas por Java (archivos binarios)
+*.class
+
+# Ignorar la carpeta completa donde Eclipse guarda la compilación
+bin/
+build/
+
+# Ignorar archivos temporales o de configuración local de Eclipse que no se necesitan en GitHub
+.metadata/
+/local.properties
+*.log
+
+# Opcional: si manejas archivos de datos temporales dentro de tu carpeta files
+GreenBuilding/bin/files/
